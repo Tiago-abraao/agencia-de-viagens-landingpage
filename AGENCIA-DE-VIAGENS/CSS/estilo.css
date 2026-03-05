@@ -3,3 +3,35 @@
     border: 0;
     box-sizing: border-box;
 }
+
+
+header{
+    width: 100%;
+    height: 55px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+}
+
+header .topo{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.largura-maxima{
+    max-width: 1024px;
+}
+
+
+header .topo img{
+    width: 32px;
+    height: 32px;
+}
+
+header .topo p{
+    font-size: 24px;
+    color: #5d15d1;
+    margin-left: 10px;
+}
